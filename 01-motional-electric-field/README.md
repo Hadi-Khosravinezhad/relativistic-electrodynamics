@@ -170,11 +170,10 @@ https://github.com/user-attachments/assets/dd98e731-110f-45dc-bfac-66a2edc85440
 
 ---
 
----
-
 ## 🌀 Step 4: After Liftoff — The Awakening of the Magnetic Field (Frame $S'$)
 
 In Step 3, we observed that the stationary charge was kicked into motion purely by the newly induced electric field:
+
 $$\mathbf{E}' = +v B_0 \hat{\mathbf{y}}'$$
 
 However, the story does not end with a simple upward acceleration. As soon as the particle acquires vertical velocity, a remarkable new physical effect emerges: **the magnetic field inside the moving box wakes up.**
@@ -187,8 +186,8 @@ According to the relativistic transformation of electromagnetic fields (at veloc
 $$\mathbf{B}' \approx \mathbf{B} = -B_0 \hat{\mathbf{z}}'$$
 
 Consequently, the interior of the moving box contains **both** an electric field and a magnetic field simultaneously:
-* **Electric Field:** $\mathbf{E}' = +v B_0 \hat{\mathbf{y}}'$  *(pulls upward)*
-* **Magnetic Field:** $\mathbf{B}' = -B_0 \hat{\mathbf{z}}'$  *(acts on any moving charge)*
+* **Electric Field:** $\mathbf{E}' = +v B_0 \hat{\mathbf{y}}'$ (pulls upward)
+* **Magnetic Field:** $\mathbf{B}' = -B_0 \hat{\mathbf{z}}'$ (acts on any moving charge)
 
 ---
 
@@ -215,47 +214,36 @@ At any subsequent time $t'$, the particle experiences the complete Lorentz force
 
 $$\mathbf{F}' = \mathbf{F}'_{\text{elec}} + \mathbf{F}'_{\text{mag}} = q \mathbf{E}' + q (\mathbf{v}' \times \mathbf{B}')$$
 
-Writing the components of Newton's second law ($m \frac{d\mathbf{v}'}{dt'} = \mathbf{F}'$):
+Separating Newton's second law into Cartesian components:
 
-$$\begin{cases}
-m \dfrac{dv'_x}{dt'} = -q v'_y B_0 \\[8pt]
-m \dfrac{dv'_y}{dt'} = q E' + q v'_x B_0 = q v B_0 + q v'_x B_0
-\end{cases}$$
+$$\frac{dv'_x}{dt'} = -\frac{q B_0}{m} v'_y$$
 
-Defining the cyclotron frequency $\omega = \dfrac{q B_0}{m}$ and the characteristic radius $R = \dfrac{v}{\omega} = \dfrac{m v}{q B_0}$:
+$$\frac{dv'_y}{dt'} = \frac{q E'}{m} + \frac{q B_0}{m} v'_x = \frac{q v B_0}{m} + \frac{q B_0}{m} v'_x$$
 
-$$\begin{cases}
-\ddot{x}' = -\omega \dot{y}' \\[6pt]
-\ddot{y}' = \omega (v + \dot{x}')
-\end{cases}$$
+Defining the cyclotron frequency $\omega = \frac{q B_0}{m}$ and the characteristic radius $R = \frac{v}{\omega} = \frac{m v}{q B_0}$:
 
-Integrating with initial conditions $\mathbf{r}'(0) = \mathbf{0}$ and $\mathbf{v}'(0) = \mathbf{0}$ yields the exact trajectory:
+$$\frac{d^2 x'}{dt'^2} = -\omega \frac{dy'}{dt'}$$
 
-$$\begin{cases}
-x'(t') = R \big( \sin(\omega t') - \omega t' \big) \\[6pt]
-y'(t') = R \big( 1 - \cos(\omega t') \big)
-\end{cases}$$
+$$\frac{d^2 y'}{dt'^2} = \omega \left( v + \frac{dx'}{dt'} \right)$$
+
+Integrating these coupled equations with initial conditions $\mathbf{r}'(0) = \mathbf{0}$ and $\mathbf{v}'(0) = \mathbf{0}$ yields the exact trajectory:
+
+$$x'(t') = R \big( \sin(\omega t') - \omega t' \big)$$
+
+$$y'(t') = R \big( 1 - \cos(\omega t') \big)$$
 
 ---
 
 ## 🎡 Step 5: The Cycloidal Trajectory & The Grand Invariance
 
-The equations derived above are the exact parametric equations of a **Cycloid** (the curve traced by a point on the rim of a rolling wheel).
+The analytical solution above describes a **Cycloid** (the curve traced by a point on the rim of a rolling wheel).
 
-```
-   y' (Height)
-   ▲
-2R ┤            ╭───╮                     ╭───╮
-   │           ╭╯   ╰╮                   ╭╯   ╰╮
- R ┤          ╭╯     ╰╮                 ╭╯     ╰╮
-   │         ╭╯       ╰╮               ╭╯       ╰╮
- 0 ┴─────────┴─────────┴───────────────┴─────────┴─────► -x' (Lagging behind)
-            Cusp 1                            Cusp 2
-```
+<!-- PLACEHOLDER FOR CYCLOID PATH DIAGRAM / TRAJECTORY ANIMATION -->
+https://github.com/user-attachments/assets/YOUR_CYCLOID_TRAJECTORY_ASSET_ID
 
 ### The Life Cycle of the Particle Inside the Box:
-1. **Lift-off ($t'=0$):** Particle starts from rest at the floor; only $\mathbf{E}'$ acts, lifting it vertically upward ($+\hat{\mathbf{y}}'$).
-2. **Backward Drift ($0 < \omega t' < \pi$):** As vertical speed increases, $\mathbf{B}'$ pushes it backward ($-\hat{\mathbf{x}}'$).
+1. **Lift-off ($t'=0$):** The particle starts from rest at the floor; only $\mathbf{E}'$ acts, lifting it vertically upward ($+\hat{\mathbf{y}}'$).
+2. **Backward Deflection ($0 < \omega t' < \pi$):** As vertical speed increases, $\mathbf{B}'$ pushes the particle backward ($-\hat{\mathbf{x}}'$).
 3. **Crest ($\omega t' = \pi$):** The particle reaches maximum altitude ($y'_{\text{max}} = 2R$), where vertical velocity becomes zero and backward horizontal velocity peaks at $v'_x = -2v$.
 4. **Descent & Cusp ($\pi < \omega t' < 2\pi$):** The backward motion reorients the magnetic force downward, returning the particle smoothly to the floor ($y'=0$), where it momentarily stops before repeating the cycle.
 
@@ -263,11 +251,40 @@ The equations derived above are the exact parametric equations of a **Cycloid** 
 
 ## 🎬 Numerical Simulation & Animation: The Dual-Field Cycloid
 
-The numerical integration of the coupled equations of motion demonstrates how the particle traces out a periodic cycloid inside the moving box as $\mathbf{E}'$ and $\mathbf{B}'$ act in concert:
+The animation below demonstrates the numerical simulation of the particle's full trajectory inside the moving compartment (Frame $S'$), showing the upward electric lift, backward magnetic deflection, and recurring cycloidal cusps:
 
 <!-- PLACEHOLDER FOR SIMULATION VIDEO / GIF ASSET -->
-https://github.com/user-attachments/assets/YOUR_CYCLOID_ANIMATION_ASSET_ID
+https://github.com/user-attachments/assets/YOUR_SIMULATION_ANIMATION_ASSET_ID
 
+---
+
+## ⚖️ Reconciling the Two Frames: The Ultimate Test of Consistency
+
+Do both observers agree on the physical outcome? **Yes, identically.**
+
+| Feature | Laboratory Frame ($S$) | Moving Box Frame ($S'$) |
+| :--- | :--- | :--- |
+| **Observed Fields** | $\mathbf{E} = 0, \quad \mathbf{B} = -B_0 \hat{\mathbf{z}}$ | $\mathbf{E}' = v B_0 \hat{\mathbf{y}}', \quad \mathbf{B}' = -B_0 \hat{\mathbf{z}}'$ |
+| **Active Force** | Purely Magnetic: $\mathbf{F} = q(\mathbf{v} \times \mathbf{B})$ | Dual: $\mathbf{F}' = q\mathbf{E}' + q(\mathbf{v}' \times \mathbf{B}')$ |
+| **Trajectory Type** | Uniform Circular Motion | Cycloidal Motion |
+| **Why does it lag backward?** | As the velocity vector turns upward, its horizontal velocity component drops ($v_x < v$). The box continues at constant speed $v$ and outpaces the particle. | The upward velocity through the magnetic field produces an active backward magnetic force: $\mathbf{F}' = -q v'_y B_0 \hat{\mathbf{x}}'$. |
+| **Particle Coordinate** | $x(t) = R \sin(\omega t)$ | $x'(t') = x(t) - v t = R(\sin(\omega t') - \omega t')$ |
+| **Vertical Coordinate** | $y(t) = R(1 - \cos(\omega t))$ | $y'(t') = y(t) = R(1 - \cos(\omega t'))$ |
+
+---
+
+## ⚡ Energy & Work: A Lesson in Relativity
+
+* **In the Laboratory Frame ($S$):**  
+  Because the magnetic force is perpendicular to velocity at every instant ($\mathbf{F} \perp \mathbf{v}$), the field does **strictly zero work** ($W = 0$). The particle's kinetic energy remains completely constant:
+
+  $$K = \frac{1}{2} m v^2 = \text{const}$$
+
+* **In the Moving Frame ($S'$):**  
+  The electric field $\mathbf{E}'$ is parallel to the vertical displacement and **does real work** on the particle! The kinetic energy oscillates cyclically between $0$ (at the floor cusps) and $\frac{1}{2}m(2v)^2 = 2mv^2$ (at the peak of the cycloid).
+
+> **Conclusion:**  
+> Work and kinetic energy are not absolute constants—they depend fundamentally on the reference frame of the observer. What remains invariant is the physical reality described by the **Electromagnetic Field Tensor ($F^{\mu\nu}$)** across all inertial frames.
    
 
 
