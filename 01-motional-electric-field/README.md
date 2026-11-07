@@ -112,7 +112,7 @@ Since this force must balance the observed upward acceleration:
 $$\mathbf{F}' = +q v B_0 \hat{\mathbf{y}}' \implies \mathbf{E}' = +v B_0 \hat{\mathbf{y}}'$$
 
 > **The Grand Realization:**  
-> The particle's horizontal motion was "hidden" from the internal observer because $\mathbf{v}_{\text{particle}} = \mathbf{v}_{\text{box}}$.  
+> The particle's horizontal motion was "hidden" from the internal observer.  
 > Consequently, what the outside world measures as a **velocity-dependent magnetic force** ($\mathbf{v} \times \mathbf{B}$), the internal observer experiences directly as an **electrostatic-like field** ($\mathbf{E}'$).
 
 
