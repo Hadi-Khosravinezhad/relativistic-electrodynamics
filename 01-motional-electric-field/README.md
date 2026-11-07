@@ -55,13 +55,8 @@ $$\mathbf{F}_{\text{mag}} = -q v B_0 (-\hat{\mathbf{y}}) = +q v B_0 \hat{\mathbf
 
 The numerical integration of Newton's equation of motion ($m \frac{d\mathbf{v}}{dt} = q \mathbf{v} \times \mathbf{B}$) illustrates this phenomenon clearly:
 
-<div align="center">
-  <video src="particle_deflection.mp4" width="85%" controls autoplay loop muted>
-    Your browser does not support the video tag.
-  </video>
-  <p><em>Figure 1: Trajectory of a positive test charge entering the magnetic field region (x ≥ 0) and deflecting upward under the magnetic Lorentz force.</em></p>
-</div>
 
-*(If you are viewing this file locally or on an offline markdown reader, you can also access the generated video file directly: [`particle_deflection.mp4`](particle_deflection.mp4))*
 
----
+https://github.com/user-attachments/assets/32432c11-d852-474e-af70-518de70ce2ff
+
+
