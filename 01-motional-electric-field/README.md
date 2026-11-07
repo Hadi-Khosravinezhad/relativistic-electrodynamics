@@ -100,10 +100,14 @@ Because the box travels at a constant velocity without acceleration, shocks, or 
 
 The animation below shows this scenario as observed by the external laboratory frame: the box glides across the magnetic field while the particle ascends within it.
 
-[*(Add the uploaded video `box_deflection.mp4` here using Drag & Drop)*
-](https://github.com/user-attachments/assets/c675cc25-c95c-4a62-bb23-e796477ca4b2
-)
+
+
+https://github.com/user-attachments/assets/2efe91bd-7c4b-47c9-9a4e-0b2b1e757cd2
+
 ---
+
+
+
 
 
 
