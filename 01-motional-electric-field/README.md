@@ -21,7 +21,7 @@ At $x = 0$, the particle crosses the boundary and enters the magnetic field regi
 
 ---
 
-## 🧭 The External Observer's Perspective: A Purely Magnetic Phenomenon
+## 🧭 Step 1: The External Observer's Perspective: A Purely Magnetic Phenomenon
 
 To an external observer stationed at rest in the laboratory (frame $S$), this entire interaction is explained **strictly through classical magnetic forces**. No electric field exists in this frame, and none is needed to describe the physics.
 
