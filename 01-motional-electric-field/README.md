@@ -47,7 +47,13 @@ $$\mathbf{F}_{\text{mag}} = -q v B_0 (-\hat{\mathbf{y}}) = +q v B_0 \hat{\mathbf
 
 - **Direction of Deflection:** The magnetic force acts continuously in the perpendicular $+\mathbf{\hat{y}}$ direction (upwards), pulling the particle into a smooth circular arc.
 
-- **Zero Work Done:** Because $\mathbf{F}_{\text{mag}} \perp \mathbf{v}$ at all times, $dW = \mathbf{F}_{\text{mag}} \cdot d\mathbf{r} = (\mathbf{F}_{\text{mag}} \cdot \mathbf{v}) dt = 0$. The magnetic field does strictly **zero work** on the particle. Its kinetic energy and speed ($|\mathbf{v}| = v$) remain constant, while only its direction of travel changes.
+- **Zero Work Done:** Because $\mathbf{F}_{\text{mag}} \perp \mathbf{v}$ at all times:
+
+ $$
+ dW = \mathbf{F}_{\mathrm{mag}} \cdot d\mathbf{r} = (\mathbf{F}_{\mathrm{mag}} \cdot \mathbf{v}) \, dt = 0
+ $$
+
+  The magnetic field does strictly **zero work** on the particle. Its kinetic energy and speed ($|\mathbf{v}| = v$) remain constant, while only its direction of travel changes.
 
 - **Verdict:** For the external observer, this is an open-and-shut case of magnetostatics—a moving charge deflected by a magnetic field.
 
