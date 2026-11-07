@@ -170,8 +170,6 @@ https://github.com/user-attachments/assets/dd98e731-110f-45dc-bfac-66a2edc85440
 
 ---
 
-
-
 ## 🏁 Summary & Conclusion
 
 This simple thought experiment highlights one of the most profound principles in classical and relativistic electrodynamics:
@@ -179,10 +177,10 @@ This simple thought experiment highlights one of the most profound principles in
 1. **Observer-Dependent Reality:**  
    The division of electromagnetic interactions into separate "electric" and "magnetic" forces is purely an artifact of the observer's frame of reference. What the laboratory observer ($S$) explains entirely as a **magnetic Lorentz force** ($\mathbf{v} \times \mathbf{B}$), the co-moving observer ($S'$) experiences as a **pure electrostatic field** ($\mathbf{E}'$).
 
-2. **The Role of Relative Velocity ($\mathbf{v}_{\text{rel}} = \mathbf{0}$):**  
-  Because the particle moves synchronously with the compartment ($\mathbf{v}_{\text{particle}} = \mathbf{v}_{\text{box}}$)
-, it has zero relative velocity inside frame $S'$. Since magnetic fields cannot exert force on a stationary charge, classical force consistency ($\mathbf{F}' = \mathbf{F}$) necessitates the emergence of an induced electric field:  
-   > $\mathbf{E}' = \mathbf{v} \times \mathbf{B}$
+2. **The Role of Relative Velocity ($v_{\text{rel}} = 0$):**  
+   Because the particle moves synchronously with the compartment ($\mathbf{v}_{\text{particle}} = \mathbf{v}_{\text{box}}$), it has zero relative velocity inside frame $S'$. Since magnetic fields cannot exert force on a stationary charge, classical force consistency ($F' = F$) necessitates the emergence of an induced electric field:
+
+   $$\mathbf{E}' = \mathbf{v} \times \mathbf{B}$$
 
 3. **The Gateway to Relativity:**  
    Without relying on complex tensor calculus or four-vectors, basic Newtonian force invariance and the Lorentz force law demonstrate that electricity and magnetism are not independent entities—they are two unified perspectives of a single electromagnetic field.
