@@ -63,7 +63,7 @@ https://github.com/user-attachments/assets/32432c11-d852-474e-af70-518de70ce2ff
 
 ---
 
-## 📦 Step 2: The Moving Box & Matching Velocities ($\mathbf{v}_{\text{particle}} = \mathbf{v}_{\text{box}}$)
+## 📦 Step 2: The Moving Box & Matching Velocities 
 
 To connect what the laboratory observer sees with what the internal observer experiences, we introduce a moving compartment (Frame $S'$).
 
