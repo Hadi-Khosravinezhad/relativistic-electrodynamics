@@ -22,6 +22,6 @@ relativistic-electrodynamics/
 ├── requirements.txt                    # Environment dependencies
 │
 └── 01-motional-electric-field/         # Project 01
-    ├── README.md                       # In-depth physics, problem derivation & plot analysis
+    ├── README.md                       # In-depth physics and problem derivation
     ├── notebooks/                      # Executable Jupyter notebooks (.ipynb)
-    └── videos/                        # Generated figures and vector visualizations
+    └── videos/                        # Generated videos and visualizations
