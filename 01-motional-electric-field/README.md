@@ -1,1 +1,67 @@
+# 01: Charged Particle Deflection (The External Observer's Perspective)
 
+An analytical and computational investigation of a charged particle entering a static magnetic field, examined strictly from the laboratory reference frame ($S$).
+
+---
+
+## 📌 Problem Setup
+
+Consider an external laboratory reference frame ($S$) with a defined spatial region containing a uniform, static magnetic field pointing perpendicularly into the page:
+
+$$\mathbf{B} = -B_0 \hat{\mathbf{z}} \quad (\text{into the page } \otimes), \quad \mathbf{E} = 0$$
+
+- For $x < 0$: The region is field-free ($\mathbf{B} = 0, \mathbf{E} = 0$).
+- For $x \ge 0$: A uniform magnetic field $\mathbf{B} = -B_0 \hat{\mathbf{z}}$ is present.
+
+A positive test charge ($q > 0$) travels from left to right along the horizontal axis with a constant initial velocity:
+
+$$\mathbf{v} = v \hat{\mathbf{x}}$$
+
+At $x = 0$, the particle crosses the boundary and enters the magnetic field region.
+
+---
+
+## 🧭 The External Observer's Perspective: A Purely Magnetic Phenomenon
+
+To an external observer stationed at rest in the laboratory (frame $S$), this entire interaction is explained **strictly through classical magnetic forces**. No electric field exists in this frame, and none is needed to describe the physics.
+
+### 1. Application of the Lorentz Force Law
+The general Lorentz force equation acting on a charged particle is:
+
+$$\mathbf{F} = q \left( \mathbf{E} + \mathbf{v} \times \mathbf{B} \right)$$
+
+Because the external observer measures zero electric field ($\mathbf{E} = 0$), the force simplifies entirely to the magnetic component:
+
+$$\mathbf{F} = \mathbf{F}_{\text{mag}} = q (\mathbf{v} \times \mathbf{B})$$
+
+Substituting the velocity $\mathbf{v} = v \hat{\mathbf{x}}$ and magnetic field $\mathbf{B} = -B_0 \hat{\mathbf{z}}$:
+
+$$\mathbf{F}_{\text{mag}} = q \left( v \hat{\mathbf{x}} \times (-B_0 \hat{\mathbf{z}}) \right) = -q v B_0 (\hat{\mathbf{x}} \times \hat{\mathbf{z}})$$
+
+Using the vector cross-product identity $\hat{\mathbf{x}} \times \hat{\mathbf{z}} = -\hat{\mathbf{y}}$:
+
+$$\mathbf{F}_{\text{mag}} = -q v B_0 (-\hat{\mathbf{y}}) = +q v B_0 \hat{\mathbf{y}}$$
+
+### 2. Physical Conclusions in Frame $S$
+- **Direction of Deflection:** The magnetic force acts continuously in the perpendicular $+\hat{\mathbf{y}}$ direction (upwards), pulling the particle into a smooth circular arc.
+- **Zero Work Done:** Because $\mathbf{F}_{\text{mag}} \perp \mathbf{v}$ at all times:
+  $$dW = \mathbf{F}_{\text{mag}} \cdot d\mathbf{r} = (\mathbf{F}_{\text{mag}} \cdot \mathbf{v}) dt = 0$$
+  The magnetic field does strictly **zero work** on the particle. Its kinetic energy and speed ($|\mathbf{v}| = v$) remain constant, while only its direction of travel changes.
+- **Verdict:** For the external observer, this is an open-and-shut case of magnetostatics—a moving charge deflected by a magnetic field.
+
+---
+
+## 🎬 Numerical Simulation & Animation
+
+The numerical integration of Newton's equation of motion ($m \frac{d\mathbf{v}}{dt} = q \mathbf{v} \times \mathbf{B}$) illustrates this phenomenon clearly:
+
+<div align="center">
+  <video src="particle_deflection.mp4" width="85%" controls autoplay loop muted>
+    Your browser does not support the video tag.
+  </video>
+  <p><em>Figure 1: Trajectory of a positive test charge entering the magnetic field region (x ≥ 0) and deflecting upward under the magnetic Lorentz force.</em></p>
+</div>
+
+*(If you are viewing this file locally or on an offline markdown reader, you can also access the generated video file directly: [`particle_deflection.mp4`](particle_deflection.mp4))*
+
+---
