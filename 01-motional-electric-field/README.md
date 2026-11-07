@@ -309,7 +309,14 @@ Electric and magnetic fields do not possess independent physical existences:
 
 Neither perspective is privileged or "more real." Instead, classical electric and magnetic vectors are simply observer-dependent 3D spatial projections of a unified four-dimensional geometric entity: the **Electromagnetic Field Tensor ($F^{\mu\nu}$)**:
 
-$$F^{\mu\nu} = \begin{pmatrix} 0 & -E_x/c & -E_y/c & -E_z/c \\ E_x/c & 0 & -B_z & B_y \\ E_y/c & B_z & 0 & -B_x \\ E_z/c & -B_y & B_x & 0 \end{pmatrix}$$
+$$
+F^{\mu\nu} = \begin{pmatrix}
+0 & -E_x/c & -E_y/c & -E_z/c \\
+E_x/c & 0 & -B_z & B_y \\
+E_y/c & B_z & 0 & -B_x \\
+E_z/c & -B_y & B_x & 0
+\end{pmatrix}
+$$
 
 ---
 
