@@ -137,12 +137,16 @@ Suddenly, as the box glides across the laboratory's field region, **the particle
 
 The observer inside wants to explain what physical force is causing this upward acceleration ($m \mathbf{a}'$):
 
-1. **Could it be a Magnetic Force?**  
+1. **Could it be a Magnetic Force?**
+
    The observer knows the magnetic Lorentz force formula:
-   $$\mathbf{F}_{\text{mag}}' = q (\mathbf{v}' \times \mathbf{B}')$$
-   However, the particle was initially **completely at rest** ($\mathbf{v}' = 0$).  
-   A magnetic field cannot exert force on a stationary charge:
-   $$\mathbf{v}' = 0 \implies \mathbf{F}_{\text{mag}}' = q (\mathbf{0} \times \mathbf{B}') = 0$$
+
+   $$\mathbf{F}'_{\text{mag}} = q (\mathbf{v}' \times \mathbf{B}')$$
+
+   However, the particle was initially **completely at rest** ($\mathbf{v}' = 0$). A magnetic field cannot exert force on a stationary charge:
+
+   $$\mathbf{v}' = 0 \implies \mathbf{F}'_{\text{mag}} = q (\mathbf{0} \times \mathbf{B}') = \mathbf{0}$$
+
    *Therefore, a magnetic field alone is mathematically incapable of initiating this motion!*
 
 2. **The Only Possible Culprit: An Electric Field!**  
