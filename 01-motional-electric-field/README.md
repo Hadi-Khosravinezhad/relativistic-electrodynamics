@@ -1,11 +1,4 @@
 
-
-https://github.com/user-attachments/assets/07c297e5-1234-478a-8156-8dc18dfa00c1
-
-
-
-https://github.com/user-attachments/assets/90aca854-62bf-4d63-9d99-d21cc470160f
-
 # 01: Charged Particle Deflection (The External Observer's Perspective)
 
 An analytical and computational investigation of a charged particle entering a static magnetic field, examined strictly from the laboratory reference frame ($S$).
@@ -246,7 +239,9 @@ $$y'(t') = R \big( 1 - \cos(\omega t') \big)$$
 
 The analytical solution above describes a **Cycloid** (the curve traced by a point on the rim of a rolling wheel).
 
+https://github.com/user-attachments/assets/07c297e5-1234-478a-8156-8dc18dfa00c1
 
+https://github.com/user-attachments/assets/90aca854-62bf-4d63-9d99-d21cc470160f
 
 
    
