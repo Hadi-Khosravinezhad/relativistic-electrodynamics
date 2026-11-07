@@ -24,4 +24,4 @@ relativistic-electrodynamics/
 └── 01-motional-electric-field/         # Project 01
     ├── README.md                       # In-depth physics, problem derivation & plot analysis
     ├── notebooks/                      # Executable Jupyter notebooks (.ipynb)
-    └── figures/                        # Generated figures and vector visualizations
+    └── videos/                        # Generated figures and vector visualizations
