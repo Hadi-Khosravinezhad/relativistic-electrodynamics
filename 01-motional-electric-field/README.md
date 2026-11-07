@@ -78,8 +78,7 @@ To an engineer watching from the outside laboratory:
 - Both the box and the charged particle are traveling at speed $v \hat{\mathbf{x}}$ through the uniform magnetic field $\mathbf{B} = -B_0 \hat{\mathbf{z}}$.
 - The magnetic Lorentz force acts on the charge:
   $$\mathbf{F}_{\text{mag}} = q (\mathbf{v} \times \mathbf{B}) = +q v B_0 \hat{\mathbf{y}}$$
-- Therefore, the external observer sees the particle **drift smoothly upward towards the ceiling of the box** as the box glides forward.
-- Everything remains completely consistent with classical magnetostatics: the force is 100% magnetic.
+
 
 ---
 
