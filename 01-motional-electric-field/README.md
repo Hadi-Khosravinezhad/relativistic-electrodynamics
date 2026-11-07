@@ -170,6 +170,103 @@ https://github.com/user-attachments/assets/dd98e731-110f-45dc-bfac-66a2edc85440
 
 ---
 
+---
+
+## 🌀 Step 4: After Liftoff — The Awakening of the Magnetic Field (Frame $S'$)
+
+In Step 3, we observed that the stationary charge was kicked into motion purely by the newly induced electric field:
+$$\mathbf{E}' = +v B_0 \hat{\mathbf{y}}'$$
+
+However, the story does not end with a simple upward acceleration. As soon as the particle acquires vertical velocity, a remarkable new physical effect emerges: **the magnetic field inside the moving box wakes up.**
+
+---
+
+### 1. The Magnetic Field Still Exists in Frame $S'$
+According to the relativistic transformation of electromagnetic fields (at velocities $v \ll c$), the magnetic field measured in the moving frame remains virtually identical to that of the laboratory:
+
+$$\mathbf{B}' \approx \mathbf{B} = -B_0 \hat{\mathbf{z}}'$$
+
+Consequently, the interior of the moving box contains **both** an electric field and a magnetic field simultaneously:
+* **Electric Field:** $\mathbf{E}' = +v B_0 \hat{\mathbf{y}}'$  *(pulls upward)*
+* **Magnetic Field:** $\mathbf{B}' = -B_0 \hat{\mathbf{z}}'$  *(acts on any moving charge)*
+
+---
+
+### 2. The Emergence of the Backward Deflection
+As the electric field accelerates the particle upward from rest, it acquires a vertical velocity component:
+
+$$\mathbf{v}' = v'_y \hat{\mathbf{y}}' \quad (v'_y > 0)$$
+
+Because the velocity is now non-zero, the magnetic Lorentz force equation inside the box is activated:
+
+$$\mathbf{F}'_{\text{mag}} = q (\mathbf{v}' \times \mathbf{B}') = q \left( v'_y \hat{\mathbf{y}}' \times (-B_0 \hat{\mathbf{z}}') \right)$$
+
+Applying the cross-product identity $\hat{\mathbf{y}}' \times \hat{\mathbf{z}}' = +\hat{\mathbf{x}}'$:
+
+$$\mathbf{F}'_{\text{mag}} = -q v'_y B_0 \hat{\mathbf{x}}'$$
+
+> 💡 **The Physical Revelation:**  
+> The magnetic field does not push the particle upward; it pulls it **horizontally backward ($-\hat{\mathbf{x}}'$) toward the rear wall of the compartment!**
+
+---
+
+### 3. The Coupled Equations of Motion in Frame $S'$
+At any subsequent time $t'$, the particle experiences the complete Lorentz force containing both fields:
+
+$$\mathbf{F}' = \mathbf{F}'_{\text{elec}} + \mathbf{F}'_{\text{mag}} = q \mathbf{E}' + q (\mathbf{v}' \times \mathbf{B}')$$
+
+Writing the components of Newton's second law ($m \frac{d\mathbf{v}'}{dt'} = \mathbf{F}'$):
+
+$$\begin{cases}
+m \dfrac{dv'_x}{dt'} = -q v'_y B_0 \\[8pt]
+m \dfrac{dv'_y}{dt'} = q E' + q v'_x B_0 = q v B_0 + q v'_x B_0
+\end{cases}$$
+
+Defining the cyclotron frequency $\omega = \dfrac{q B_0}{m}$ and the characteristic radius $R = \dfrac{v}{\omega} = \dfrac{m v}{q B_0}$:
+
+$$\begin{cases}
+\ddot{x}' = -\omega \dot{y}' \\[6pt]
+\ddot{y}' = \omega (v + \dot{x}')
+\end{cases}$$
+
+Integrating with initial conditions $\mathbf{r}'(0) = \mathbf{0}$ and $\mathbf{v}'(0) = \mathbf{0}$ yields the exact trajectory:
+
+$$\begin{cases}
+x'(t') = R \big( \sin(\omega t') - \omega t' \big) \\[6pt]
+y'(t') = R \big( 1 - \cos(\omega t') \big)
+\end{cases}$$
+
+---
+
+## 🎡 Step 5: The Cycloidal Trajectory & The Grand Invariance
+
+The equations derived above are the exact parametric equations of a **Cycloid** (the curve traced by a point on the rim of a rolling wheel).
+
+```
+   y' (Height)
+   ▲
+2R ┤            ╭───╮                     ╭───╮
+   │           ╭╯   ╰╮                   ╭╯   ╰╮
+ R ┤          ╭╯     ╰╮                 ╭╯     ╰╮
+   │         ╭╯       ╰╮               ╭╯       ╰╮
+ 0 ┴─────────┴─────────┴───────────────┴─────────┴─────► -x' (Lagging behind)
+            Cusp 1                            Cusp 2
+```
+
+### The Life Cycle of the Particle Inside the Box:
+1. **Lift-off ($t'=0$):** Particle starts from rest at the floor; only $\mathbf{E}'$ acts, lifting it vertically upward ($+\hat{\mathbf{y}}'$).
+2. **Backward Drift ($0 < \omega t' < \pi$):** As vertical speed increases, $\mathbf{B}'$ pushes it backward ($-\hat{\mathbf{x}}'$).
+3. **Crest ($\omega t' = \pi$):** The particle reaches maximum altitude ($y'_{\text{max}} = 2R$), where vertical velocity becomes zero and backward horizontal velocity peaks at $v'_x = -2v$.
+4. **Descent & Cusp ($\pi < \omega t' < 2\pi$):** The backward motion reorients the magnetic force downward, returning the particle smoothly to the floor ($y'=0$), where it momentarily stops before repeating the cycle.
+
+---
+
+## 🎬 Numerical Simulation & Animation: The Dual-Field Cycloid
+
+The numerical integration of the coupled equations of motion demonstrates how the particle traces out a periodic cycloid inside the moving box as $\mathbf{E}'$ and $\mathbf{B}'$ act in concert:
+
+<!-- PLACEHOLDER FOR SIMULATION VIDEO / GIF ASSET -->
+https://github.com/user-attachments/assets/YOUR_CYCLOID_ANIMATION_ASSET_ID
 
    
 
