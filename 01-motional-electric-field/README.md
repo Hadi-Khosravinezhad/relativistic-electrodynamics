@@ -165,7 +165,8 @@ The observer inside wants to explain what physical force is causing this upward 
 
 The animation below demonstrates the exact visual experience of the internal observer: the compartment is stationary, the particle sits at rest, and then accelerates vertically upward under the action of the induced electric field.
 
-*(Add the uploaded video `box_inside_view.mp4` here using Drag & Drop)*
+
+https://github.com/user-attachments/assets/dd98e731-110f-45dc-bfac-66a2edc85440
 
 ---
 
@@ -193,13 +194,7 @@ For an electrical engineer:
 
 **Electric and magnetic fields are not independent entities—they are two different manifestations of a single, unified electromagnetic field tensor, differing only by the state of motion of the observer.**
 
-
-
-https://github.com/user-attachments/assets/dd98e731-110f-45dc-bfac-66a2edc85440
-
 ---
-
-
 
 
 
