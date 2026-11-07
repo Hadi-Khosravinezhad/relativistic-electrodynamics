@@ -59,4 +59,53 @@ The numerical integration of Newton's equation of motion ($m \frac{d\mathbf{v}}{
 
 https://github.com/user-attachments/assets/32432c11-d852-474e-af70-518de70ce2ff
 
+---
+
+## 📦 Step 2: The Moving Box & The Principle of Relativity
+
+To bridge the gap between classical electromagnetism and relativity, let us introduce a second observer into the experiment.
+
+Imagine that our charged particle ($q$) is placed inside a closed, windowless compartment (a "box") that is moving horizontally to the right across the laboratory with constant velocity:
+
+$$\mathbf{v}_{\text{box}} = v \hat{\mathbf{x}}$$
+
+An experimenter (the **internal observer**, Frame $S'$) is stationed inside this box alongside the particle.
+
+---
+
+### 1. The Reality from the Outside (Laboratory Observer $S$)
+To an engineer watching from the outside laboratory:
+- Both the box and the charged particle are traveling at speed $v \hat{\mathbf{x}}$ through the uniform magnetic field $\mathbf{B} = -B_0 \hat{\mathbf{z}}$.
+- The magnetic Lorentz force acts on the charge:
+  $$\mathbf{F}_{\text{mag}} = q (\mathbf{v} \times \mathbf{B}) = +q v B_0 \hat{\mathbf{y}}$$
+- Therefore, the external observer sees the particle **drift smoothly upward towards the ceiling of the box** as the box glides forward.
+- Everything remains completely consistent with classical magnetostatics: the force is 100% magnetic.
+
+---
+
+### 2. The Experience from the Inside (Observer $S'$)
+Now, consider the crucial question: **What does the observer inside the box feel and know?**
+
+According to **Galileo’s Principle of Relativity** (and Einstein's First Postulate):
+> *The laws of physics are identical in all inertial reference frames. Uniform rectilinear motion is physically undetectable from within a closed system.*
+
+Because the box travels at a constant velocity without acceleration, shocks, or vibration:
+1. **No Sensation of Motion:** The internal observer has **no physical way of knowing that the box is moving**. To them, the compartment feels completely stationary, just like sitting in a smooth high-speed train or an airplane cruising through still air.
+2. **No Knowledge of the Outside World:** Because the box is sealed, the internal observer cannot measure their speed relative to the laboratory floor or look at the external magnets.
+3. **The Puzzle:** From this observer's point of view, the box is their entire stationary universe. And yet, right before their eyes, **a stationary charged particle spontaneously lifts off and accelerates upward toward the ceiling!**
+
+---
+
+### 🎬 Simulation: The Moving Box from the Laboratory Frame
+
+The animation below shows this scenario as observed by the external laboratory frame: the box glides across the magnetic field while the particle ascends within it.
+
+[*(Add the uploaded video `box_deflection.mp4` here using Drag & Drop)*
+](https://github.com/user-attachments/assets/c675cc25-c95c-4a62-bb23-e796477ca4b2
+)
+---
+
+
+
+
 
